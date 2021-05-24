@@ -4,9 +4,9 @@
 
 + (NSDate *)dateFrom:(NSString *)string {
     NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    dateFormatter.dateFormat = @"dd-MMM-yyyy";
+        dateFormatter.dateFormat = @"dd-MMM-yyyy";
 
-    return [dateFormatter dateFromString:string];
+        return [dateFormatter dateFromString:string];
 }
 
 + (NSDate *)dateFrom:(NSInteger)day month:(NSInteger)month year:(NSInteger)year {
